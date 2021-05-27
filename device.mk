@@ -21,5 +21,9 @@ TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    libkeymaster_messages.vendor
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/vayu/vayu-vendor.mk)
