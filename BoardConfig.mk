@@ -9,6 +9,8 @@ include device/xiaomi/sm8150-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/vayu
 
+BUILD_BROKEN_DUP_RULES := true
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
