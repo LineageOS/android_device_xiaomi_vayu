@@ -14,9 +14,6 @@ BUILD_BROKEN_DUP_RULES := true
 # Assert
 TARGET_OTA_ASSERT_DEVICE := vayu,bhima
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
-
 # Display
 TARGET_SCREEN_DENSITY := 440
 
