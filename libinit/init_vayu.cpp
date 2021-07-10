@@ -6,6 +6,9 @@
 
 #include <libinit_msmnile.h>
 
+#define DESCRIPTION "vayu_global-user 11 RKQ1.200826.002 V12.5.2.0.RJUMIXM release-keys"
+#define FINGERPRINT "POCO/vayu_global/vayu:11/RKQ1.200826.002/V12.5.2.0.RJUMIXM:user/release-keys"
+
 static const variant_info_t vayu_global_info = {
     .hwc_value = "GLOBAL",
     .sku_value = "vayu",
@@ -14,8 +17,8 @@ static const variant_info_t vayu_global_info = {
     .device = "vayu",
     .marketname = "POCO X3 Pro",
     .model = "M2102J20SG",
-    .build_description = "vayu_global-user 11 RKQ1.200826.002 V12.5.2.0.RJUMIXM release-keys",
-    .build_fingerprint = "POCO/vayu_global/vayu:11/RKQ1.200826.002/V12.5.2.0.RJUMIXM:user/release-keys",
+    .build_description = DESCRIPTION,
+    .build_fingerprint = FINGERPRINT,
 
     .nfc = true,
 };
@@ -28,8 +31,8 @@ static const variant_info_t vayu_eea_info = {
     .device = "vayu",
     .marketname = "POCO X3 Pro",
     .model = "M2102J20SG",
-    .build_description = "vayu_global-user 11 RKQ1.200826.002 V12.5.2.0.RJUMIXM release-keys",
-    .build_fingerprint = "POCO/vayu_global/vayu:11/RKQ1.200826.002/V12.5.2.0.RJUMIXM:user/release-keys",
+    .build_description = DESCRIPTION,
+    .build_fingerprint = FINGERPRINT,
 
     .nfc = true,
 };
@@ -42,8 +45,8 @@ static const variant_info_t bhima_info = {
     .device = "bhima",
     .marketname = "POCO X3 Pro",
     .model = "M2102J20SI",
-    .build_description = "bhima_global-user 11 RKQ1.200826.002 V12.5.2.0.RJUMIXM release-keys",
-    .build_fingerprint = "POCO/bhima_global/bhima:11/RKQ1.200826.002/V12.5.2.0.RJUMIXM:user/release-keys",
+    .build_description = DESCRIPTION,
+    .build_fingerprint = FINGERPRINT,
 
     .nfc = false,
 };
