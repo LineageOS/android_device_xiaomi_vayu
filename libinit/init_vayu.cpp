@@ -12,8 +12,8 @@ static const variant_info_t vayu_global_info = {
 
     .brand = "POCO",
     .device = "vayu",
-    .marketname = "M2102J20SG",
-    .model = "POCO X3 Pro",
+    .marketname = "POCO X3 Pro",
+    .model = "M2102J20SG",
     .build_description = "vayu_global-user 11 RKQ1.200826.002 V12.5.2.0.RJUMIXM release-keys",
     .build_fingerprint = "POCO/vayu_global/vayu:11/RKQ1.200826.002/V12.5.2.0.RJUMIXM:user/release-keys",
 
@@ -26,8 +26,8 @@ static const variant_info_t vayu_eea_info = {
 
     .brand = "POCO",
     .device = "vayu",
-    .marketname = "M2102J20SG",
-    .model = "POCO X3 Pro",
+    .marketname = "POCO X3 Pro",
+    .model = "M2102J20SG",
     .build_description = "vayu_global-user 11 RKQ1.200826.002 V12.5.2.0.RJUMIXM release-keys",
     .build_fingerprint = "POCO/vayu_global/vayu:11/RKQ1.200826.002/V12.5.2.0.RJUMIXM:user/release-keys",
 
