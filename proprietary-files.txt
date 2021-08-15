@@ -1,4 +1,4 @@
-# Unpinned blobs from vayu_global-user 11 RKQ1.200826.002 V12.5.2.0.RJUMIXM release-keys
+# Unpinned blobs from vayu_global-user 11 RKQ1.200826.002 V12.5.3.0.RJUMIXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
