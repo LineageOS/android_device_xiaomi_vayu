@@ -236,8 +236,11 @@ vendor/etc/camera/LDC_PACKDATA_VENDORID_0x03.bin
 vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin
 vendor/etc/camera/LDC_table_src1.dat
 vendor/etc/camera/megviifacepp_0_5_2_model
+vendor/etc/camera/mibokeh_712_opencl.bin
+vendor/etc/camera/mibokeh_712_parameter.bin
 vendor/etc/camera/model_back.dlc
 vendor/etc/camera/model_front.dlc
+vendor/etc/camera/model_front_mibokeh_video.dlc
 vendor/etc/camera/morpho_lowlight4.0.xml
 vendor/etc/camera/morpho_lowlight4.0_3hdr.xml
 vendor/etc/camera/morpho_lowlight4.0_adrc_high.xml
