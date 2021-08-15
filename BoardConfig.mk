@@ -18,8 +18,8 @@ TARGET_OTA_ASSERT_DEVICE := vayu,bhima
 TARGET_SCREEN_DENSITY := 440
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_vayu
-TARGET_RECOVERY_DEVICE_MODULES := libinit_vayu
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_vayu
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_vayu
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/vayu_defconfig

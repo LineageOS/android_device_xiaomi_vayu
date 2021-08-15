@@ -5,8 +5,9 @@
 //
 
 cc_library_static {
-    name: "libinit_vayu",
-    defaults: ["//device/xiaomi/sm8150-common:libinit_msmnile_defaults"],
-    srcs: ["init_vayu.cpp"],
-    whole_static_libs: ["//device/xiaomi/sm8150-common:libinit_msmnile"],
+    name: "init_xiaomi_vayu",
+    srcs: ["init_xiaomi_vayu.cpp"],
+    whole_static_libs: ["//device/xiaomi/sm8150-common:libinit_xiaomi_msmnile"],
+    include_dirs: ["system/core/init"],
+    recovery_available: true,
 }
