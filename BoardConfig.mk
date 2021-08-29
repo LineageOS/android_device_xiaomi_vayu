@@ -24,5 +24,8 @@ TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_vayu
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/vayu_defconfig
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Inherit from the proprietary version
 include vendor/xiaomi/vayu/BoardConfigVendor.mk
