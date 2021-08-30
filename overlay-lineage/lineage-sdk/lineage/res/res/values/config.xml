@@ -17,5 +17,5 @@
 -->
 <resources>
     <!-- Whether device has a notch -->
-    <bool name="config_haveNotch">false</bool>
+    <bool name="config_haveNotch">true</bool>
 </resources>
