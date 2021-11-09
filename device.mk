@@ -28,6 +28,10 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_PACKAGES += \
     libkeymaster_messages.vendor
 
+# Remove megavii dependency in camera.qcom.so
+PRODUCT_PACKAGES += \
+    libshim_megvii
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
