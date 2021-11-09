@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb0c9f12_b9af68c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29758
+      },
+      "writtenOn": "2021-11-09T09:22:10Z",
+      "side": 1,
+      "message": "Stock camera works\nStock video recording works",
+      "revId": "9d913cff5a5cdbd3c531817a55fa1742d710e50f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
