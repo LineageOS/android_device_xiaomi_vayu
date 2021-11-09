@@ -18,4 +18,14 @@ export DEVICE=vayu
 export DEVICE_COMMON=sm8150-common
 export VENDOR=xiaomi
 
+function blob_fixup() {
+    case "${1}" in
+    vendor/lib64/hw/camera.qcom.so)
+        patchelf --remove-needed "libMegviiFacepp.so" "${2}"
+        patchelf --remove-needed "libmegface-new.so" "${2}"
+        patchelf --add-needed "libshim_megvii.so" "${2}"
+        ;;
+    esac
+}
+
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
