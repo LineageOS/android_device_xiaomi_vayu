@@ -14,6 +14,9 @@ BUILD_BROKEN_DUP_RULES := true
 # Assert
 TARGET_OTA_ASSERT_DEVICE := vayu,bhima
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := vayu
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
