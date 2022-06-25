@@ -21,7 +21,7 @@ static const variant_info_t vayu_global_info = {
     .model = "M2102J20SG",
     .build_fingerprint = FINGERPRINT,
 
-    .nfc = true,
+    .nfc = NFC_TYPE_NFC,
 };
 
 static const variant_info_t vayu_eea_info = {
@@ -34,7 +34,7 @@ static const variant_info_t vayu_eea_info = {
     .model = "M2102J20SG",
     .build_fingerprint = FINGERPRINT,
 
-    .nfc = true,
+    .nfc = NFC_TYPE_NFC,
 };
 
 static const variant_info_t bhima_info = {
@@ -47,7 +47,7 @@ static const variant_info_t bhima_info = {
     .model = "M2102J20SI",
     .build_fingerprint = FINGERPRINT,
 
-    .nfc = false,
+    .nfc = NFC_TYPE_NONE,
 };
 
 static const std::vector<variant_info_t> variants = {
