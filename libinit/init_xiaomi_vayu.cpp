@@ -9,7 +9,7 @@
 
 #include "vendor_init.h"
 
-#define FINGERPRINT "POCO/vayu_global/vayu:12/RKQ1.200826.002/V13.0.5.0.SJUMIXM:user/release-keys"
+#define FINGERPRINT "POCO/vayu_global/vayu:13/RKQ1.200826.002/V14.0.3.0.TJUMIXM:user/release-keys"
 
 static const variant_info_t bhima_info = {
     .hwc_value = "INDIA",
